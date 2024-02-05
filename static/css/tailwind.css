@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    /*LOGIN PAGE */
+    .input {
+        @apply w-full bg-transparent my-2 border  p-2 rounded-md border-white/60 placeholder-white font-semibold text-white
+    }
+
+    .btn {
+        @apply border my-3 border-[#AC2C43]/60 p-1 rounded-md  drop-shadow-sm text-white py-2 font-semibold uppercase  hover:border-2 bg-[#AC2C43]
+    }
+
+}
